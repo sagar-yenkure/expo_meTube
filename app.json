@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "mytube",
+    "scheme": "myapp",
+    "slug": "mytube",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "package":"com.react_native.aora"
+    },
+    "android": {
+      "adaptiveIcon": {
+     
+        "backgroundColor": "#ffffff"
+      },
+           "package":"com.react_native.aora"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
